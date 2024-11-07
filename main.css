@@ -1,0 +1,105 @@
+/* Container Styling */
+.container {
+    padding: 20px;
+    max-width: 600px;
+    margin: auto;
+    background-color: hsl(330, 100%, 98%);
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+}
+
+/* Image Styling */
+img {
+    width: 100%;
+    border-radius: 8px;
+}
+
+/* Typography */
+h1 {
+    color: hsl(36, 6%, 16%);
+    font-size: 1.8rem;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+h2 {
+    color: hsl(14, 45%, 36%);
+    font-size: 1.5rem;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+
+h3 {
+    color: hsl(14, 45%, 36%);
+    font-size: 1.2rem;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    font-weight: normal;
+}
+
+p {
+    font-size: 1rem;
+    line-height: 1.6;
+    color: hsl(14, 20%, 20%);
+    margin-bottom: 15px;
+}
+
+/* List Styling */
+ul, ol {
+    margin: 10px 0;
+    padding-left: 20px;
+    color: hsl(14, 20%, 30%);
+}
+
+li {
+    margin-bottom: 8px;
+}
+
+/* Table Styling */
+table {
+    width: 100%;
+    margin-top: 20px;
+    border-collapse: collapse;
+    text-align: left;
+}
+
+td {
+    padding: 8px 0;
+    border-bottom: 1px solid hsl(30, 54%, 90%);
+}
+
+.num {
+    text-align: right;
+}
+
+/* Horizontal Rule Styling */
+hr {
+    border: 0;
+    height: 1px;
+    background-color: hsl(30, 54%, 90%);
+    margin: 20px 0;
+}
+
+/* Responsive Design */
+@media (max-width: 600px) {
+    .container {
+        padding: 15px;
+    }
+
+    h1 {
+        font-size: 1.5rem;
+    }
+
+    h2 {
+        font-size: 1.3rem;
+    }
+
+    h3 {
+        font-size: 1.1rem;
+    }
+
+    table {
+        font-size: 0.9rem;
+    }
+}
